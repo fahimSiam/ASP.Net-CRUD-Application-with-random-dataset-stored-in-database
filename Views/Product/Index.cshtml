@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Activity2a.Models.ProductModel>
+
+<p>
+    <a href="/product/Insert" class="btn btn-success btn-lg">Insert New Item</a>
+</p>
+
+
+<div class="container d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+
+        var s = item.Name;
+        var firstWord = s.IndexOf(" ") > -1 ? s.Substring(0, s.IndexOf(" ")) : s;
+    <div class="card" style="width: 18rem;">
+        <img src="https://loremflickr.com/g/150/150/@firstWord?lock=@item.Id" class="card-img-top" alt="@item.Name">
+        <div class="card-body">
+            <h5 class="card-title">@item.Name</h5>
+            <p class="card-text">@Html.DisplayFor(m => item.Price)</p>
+            <p class="card-text">@item.Description</p>
+            <a href="/product/ShowDetails/@item.Id" class="btn btn-primary">Show Details</a>
+            <a href="/product/Edit/@item.Id" class="btn btn-warning">Edit</a>
+            <a href="/product/Delete/@item.Id" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+    }
+</div>
