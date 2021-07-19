@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\Activity2a.csproj": {}
+    "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\ASP.Net-CRUD-Application-with-Random-data\\Activity2a.csproj": {}
   },
   "projects": {
-    "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\Activity2a.csproj": {
+    "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\ASP.Net-CRUD-Application-with-Random-data\\Activity2a.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\Activity2a.csproj",
+        "projectUniqueName": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\ASP.Net-CRUD-Application-with-Random-data\\Activity2a.csproj",
         "projectName": "Activity2a",
-        "projectPath": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\Activity2a.csproj",
+        "projectPath": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\ASP.Net-CRUD-Application-with-Random-data\\Activity2a.csproj",
         "packagesPath": "C:\\Users\\My Baby\\.nuget\\packages\\",
-        "outputPath": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\obj\\",
+        "outputPath": "D:\\files\\codes\\visual studio\\CSharpWeb\\Activity2a\\ASP.Net-CRUD-Application-with-Random-data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My Baby\\AppData\\Roaming\\NuGet\\NuGet.Config",
