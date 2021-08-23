@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Activity2a
+build_property.ProjectDir = S:\codes\visual studio\CSharpWeb\Activity2a\ASP.Net-CRUD-Application-with-Random-data\
